@@ -1,0 +1,82 @@
+This code book summarizes the resulting data fields in tidy_data.txt.
+
+There are data for 30 persons, each one was tracked for 6 activities, so there are a total of 180 rows of data.
+The data were averaged based on subject and activity group
+
+Identyfires:
+SubjectId - The ID of the test subject. SubjectId column is numbered sequentially from 1 to 30 (30 persons)
+ActivityId - The type of activity performed when the corresponding measurements were taken (6 activities)
+
+Activity lables :
+WALKING 
+WALKING_UPSTAIRS 
+WALKING_DOWNSTAIRS 
+SITTING 
+STANDING
+LAYING
+
+There are 66 variables:
+ [1] "TimeDomainBodyAccelerometerMeanX"                     
+ [2] "TimeDomainBodyAccelerometerMeanY"                     
+ [3] "TimeDomainBodyAccelerometerMeanZ"                     
+ [4] "TimeDomainGravityAccelerometerMeanX"                  
+ [5] "TimeDomainGravityAccelerometerMeanY"                  
+ [6] "TimeDomainGravityAccelerometerMeanZ"                  
+ [7] "TimeDomainBodyAccelerometerJerkMeanX"                 
+ [8] "TimeDomainBodyAccelerometerJerkMeanY"                 
+ [9] "TimeDomainBodyAccelerometerJerkMeanZ"                 
+[10] "TimeDomainBodyGyroscopeMeanX"                         
+[11] "TimeDomainBodyGyroscopeMeanY"                         
+[12] "TimeDomainBodyGyroscopeMeanZ"                         
+[13] "TimeDomainBodyGyroscopeJerkMeanX"                     
+[14] "TimeDomainBodyGyroscopeJerkMeanY"                     
+[15] "TimeDomainBodyGyroscopeJerkMeanZ"                     
+[16] "TimeDomainBodyAccelerometerMagnitudeMean"             
+[17] "TimeDomainGravityAccelerometerMagnitudeMean"          
+[18] "TimeDomainBodyAccelerometerJerkMagnitudeMean"         
+[19] "TimeDomainBodyGyroscopeMagnitudeMean"                 
+[20] "TimeDomainBodyGyroscopeJerkMagnitudeMean"             
+[21] "FrequencyDomainBodyAccelerometerMeanX"                
+[22] "FrequencyDomainBodyAccelerometerMeanY"                
+[23] "FrequencyDomainBodyAccelerometerMeanZ"                
+[24] "FrequencyDomainBodyAccelerometerJerkMeanX"            
+[25] "FrequencyDomainBodyAccelerometerJerkMeanY"            
+[26] "FrequencyDomainBodyAccelerometerJerkMeanZ"            
+[27] "FrequencyDomainBodyGyroscopeMeanX"                    
+[28] "FrequencyDomainBodyGyroscopeMeanY"                    
+[29] "FrequencyDomainBodyGyroscopeMeanZ"                    
+[30] "FrequencyDomainBodyAccelerometerMagnitudeMean"        
+[31] "FrequencyDomainBodyBodyAccelerometerJerkMagnitudeMean"
+[32] "FrequencyDomainBodyBodyGyroscopeMagnitudeMean"        
+[48] "TimeDomainBodyGyroscopeJerkStdZ"                      
+[49] "TimeDomainBodyAccelerometerMagnitudeStd"              
+[50] "TimeDomainGravityAccelerometerMagnitudeStd"           
+[51] "TimeDomainBodyAccelerometerJerkMagnitudeStd"          
+[52] "TimeDomainBodyGyroscopeMagnitudeStd"                  
+[53] "TimeDomainBodyGyroscopeJerkMagnitudeStd"                 
+[57] "FrequencyDomainBodyAccelerometerJerkStdX"             
+[58] "FrequencyDomainBodyAccelerometerJerkStdY"             
+[59] "FrequencyDomainBodyAccelerometerJerkStdZ"             
+[60] "FrequencyDomainBodyGyroscopeStdX"                     
+[61] "FrequencyDomainBodyGyroscopeStdY"                     
+[62] "FrequencyDomainBodyGyroscopeStdZ"                     
+[63] "FrequencyDomainBodyAccelerometerMagnitudeStd"         
+[64] "FrequencyDomainBodyBodyAccelerometerJerkMagnitudeStd" 
+[65] "FrequencyDomainBodyBodyGyroscopeMagnitudeStd"         
+[66] "FrequencyDomainBodyBodyGyroscopeJerkMagnitudeStd"  
+
+Data was taken from the accelerometer or from the gyroscope. Variables contain Mean or standard deviation (Std.) of the data.
+String "TimeDomain" mean
+[60] "FrequencyDomainBodyGyroscopeStdX"                     
+[61] "FrequencyDomainBodyGyroscopeStdY"                     
+[62] "FrequencyDomainBodyGyroscopeStdZ"                     
+[63] "FrequencyDomainBodyAccelerometerMagnitudeStd"         
+[64] "FrequencyDomainBodyBodyAccelerometerJerkMagnitudeStd" 
+[65] "FrequencyDomainBodyBodyGyroscopeMagnitudeStd"         
+[66] "FrequencyDomainBodyBodyGyroscopeJerkMagnitudeStd"  
+
+Data was taken from the accelerometer or from the gyroscope. Variables contain Mean or standard deviation (Std.) of the data.
+String "TimeDomain" means 
+[54] "FrequencyDomainBodyAccelerometerStdX"                 
+[55] "FrequencyDomainBodyAccelerometerStdY"                 
+[56] "FrequencyDomainBod
